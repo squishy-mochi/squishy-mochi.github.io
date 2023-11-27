@@ -3,16 +3,8 @@ h1 {
   color: black;
   font-family: "Bebas Neue", sans-serif;
 }
-
-#firstpost {
-  color: black;
-
-}
-
-#secondpost {}
-
-#contents {
-  font-weight: bold;
+#contents{
+ font-weight:bold;
 }
 
 #list {
@@ -29,24 +21,14 @@ h1 {
   margin-top:20px;
 }
 
-#first-post {
-  background: rgb(230, 230, 230);
-  width: 40%;
-  height: 180px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  text-align: center;
-  color: rgb(57, 97, 102);
-  border: 3px dashed rgb(77, 96, 122);
-}
 
-#second-post {
+
+.post {
   background: rgb(230, 230, 230);
   width: 50%;
   height: 180px;
-  overflow-x: auto;
-  overflow-y: hidden;
-  text-align: center;
+  overflow-x: hidden;
+  overflow-y: scrollbar;
   color: rgb(57, 97, 102);
   border: 3px dashed rgb(77, 96, 122);
 
