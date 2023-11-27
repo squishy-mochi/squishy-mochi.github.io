@@ -1,0 +1,67 @@
+h1 {
+  font-style: italic;
+  color: black;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+#firstpost {
+  color: black;
+
+}
+
+#secondpost {}
+
+#contents {
+  font-weight: bold;
+}
+
+#list {
+  text-align: left;
+  color: black;
+}
+
+#about-me {
+  color: rgb(47, 115, 168);
+  background-color: rgb(193, 255, 112);
+  padding: 10px;
+  margin:100px;
+  display:block;
+  margin-top:20px;
+}
+
+#first-post {
+  background: rgb(230, 230, 230);
+  width: 40%;
+  height: 180px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+  color: rgb(57, 97, 102);
+  border: 3px dashed rgb(77, 96, 122);
+}
+
+#second-post {
+  background: rgb(230, 230, 230);
+  width: 50%;
+  height: 180px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  text-align: center;
+  color: rgb(57, 97, 102);
+  border: 3px dashed rgb(77, 96, 122);
+
+}
+
+body {
+  line-height: 1.6em;
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-family: "Audiowide", sans-serif;
+}
+
+#blog-title {
+  background-color: rgb(217, 255, 0);
+  position: fixed;
+  left: 20px;
+}
