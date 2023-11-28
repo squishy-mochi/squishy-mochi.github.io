@@ -2,6 +2,7 @@ h1 {
   font-style: italic;
   color: black;
   font-family: "Bebas Neue", sans-serif;
+  padding: 0.5px;
 }
 .contents {
   font-weight: bold;
@@ -19,14 +20,15 @@ h1 {
   margin: 100px;
   display: block;
   margin-top: 20px;
+  font-family: "Bebas Neue", Sans-serif;
 }
- .post .content {
-    background: rgb(230, 230, 230);
-    width: 100%;
-    overflow-x: hidden;
-    overflow-y: scrollbar;
-    color: rgb(57, 97, 102);
-    border: 3px dashed rgb(77, 96, 122);
+.post .content {
+  background: rgb(230, 230, 230);
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: scrollbar;
+  color: rgb(57, 97, 102);
+  border: 3px dashed rgb(77, 96, 122);
 }
 
 body {
@@ -41,4 +43,10 @@ body {
   background-color: rgb(217, 255, 0);
   position: fixed;
   left: 20px;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
 }
