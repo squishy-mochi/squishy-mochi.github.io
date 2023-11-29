@@ -13,6 +13,11 @@ h1 {
   color: black;
 }
 
+.list {
+  text-align: left;
+  color: black;
+}
+
 #about-me {
   color: white;
   background-color: rgb(102, 140, 107);
